@@ -31,9 +31,9 @@ for i in range(r):
         max_rows = max(max_rows, matrix[i][j])
 
     # Display the minimum and maximum values for the row
-    print(f"\nRow n°{i}")
-    print(f"- The minimum in row {i} is {min_rows}")
-    print(f"- The maximum in row {i} is {max_rows}")
+    print(f"\nRow n°{i+1}")
+    print(f"- The minimum in row {i+1} is {min_rows}")
+    print(f"- The maximum in row {i+1} is {max_rows}")
 
     
 # Find minimum and maximum values in each column
@@ -47,6 +47,6 @@ for j in range(c):
         max_cols = max(max_cols, matrix[i][j])
 
     # Display the minimum and maximum values for the column
-    print(f"\nColumn n°{j}")
-    print(f"- The minimum in column {j} is {min_cols}")
-    print(f"- The maximum in column {j} is {max_cols}")
+    print(f"\nColumn n°{j+1}")
+    print(f"- The minimum in column {j+1} is {min_cols}")
+    print(f"- The maximum in column {j+1} is {max_cols}")
